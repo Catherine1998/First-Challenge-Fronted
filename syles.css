@@ -92,7 +92,7 @@ button{
     font-weight: 900;
     font-size: 0.9em;
     margin-bottom: 18px;
-    box-shadow: 1px 10px 8px 3px var(--PaleBlue); /*sombra*/
+    box-shadow: 1px 10px 8px 3px var(--PaleBlue); 
 }
 
 button:hover{
