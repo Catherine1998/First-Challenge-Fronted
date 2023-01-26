@@ -18,7 +18,11 @@ body {
   background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  
+
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
 }
 
 .main-container {
@@ -93,6 +97,8 @@ button{
     font-size: 0.9em;
     margin-bottom: 18px;
     box-shadow: 1px 10px 8px 3px var(--PaleBlue); 
+    transition: 400ms;
+
 }
 
 button:hover{
@@ -128,6 +134,7 @@ button:hover{
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
